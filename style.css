@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    background-color: #181818;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.top-container {
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title-img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.title-txt h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.title-txt h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #cccccc;
+    margin-top: 15px;
+}
+
+.middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+}
+
+.middle-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.abt-me-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.abt-me-text h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.abt-me-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #cccccc;
+    padding: 0 10px;
+}
+
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.skills .webdev,
+.skills .communication-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.programming h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.programming p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cccccc;
+    padding: 0 20px;
+    margin-bottom: 5em;
+}
+
+.communication h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.communication p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cccccc;
+    padding: 0 20px;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #242424;
+
+}
+
+.get-in-touch .textt h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.get-in-touch .textt h3 {
+    font-size: 1.2rem;
+    color: #cccccc;
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+.get-in-touch .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch .button a {
+    background-color: #333; 
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.get-in-touch .button a:hover {
+    background-color: #444;
+}
